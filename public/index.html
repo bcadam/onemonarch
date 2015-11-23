@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Wed Oct 28 2015 19:30:27 GMT+0000 (UTC) -->
-<html data-wf-site="562bc1b01ec78e0b39e0add6" data-wf-page="562bc1b01ec78e0b39e0add8">
+<html>
 <head>
   <meta charset="utf-8">
   <title>oneMonarch</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="generator" content="Webflow">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="css/onemonarch.webflow.css">
-  <link rel="stylesheet" type="text/css" href="lib/chartist.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/lib/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../css/lib/webflow.css">
+  <link rel="stylesheet" type="text/css" href="../css/app.css">
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/dc/1.7.5/dc.min.css">
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/dc/1.7.5/dc.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -19,38 +19,72 @@
       }
     });
   </script>
-  <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
-  <link rel="apple-touch-icon" href="images/logo.png">
+  <link rel="shortcut icon" type="image/x-icon" href="../images/logo.png">
+  <link rel="apple-touch-icon" href="../images/logo.png">
 </head>
 <body>
   <div class="w-section hero">
     <div class="w-container hero-container">
       <h1 class="hero-heading">one<strong>Monarch</strong></h1>
       <h1 class="hero-caption">Turn chatter into insight</h1>
-      <h2>Learn what topics your most passionate users talk about</h2>
+      <h2>Find out what your most passionate users are talking about</h2>
       <div class="search-bar">
-        <input class="search-input" type="text" autofocus/>
+        <input class="search-input" type="text" placeholder="Enter keywords, #hashtags, or @handles" autofocus/>
         <a class="button" href="/app">Find chatter</a>
       </div>
     </div>
   </div>
-  <div class="w-section benefits">
-    <div class="w-container benefits-container">
+  <div class="w-section report">
+    <div class="w-container report-container">
       <div class="chart-container">
-        <div id="chartist" class="ct-chart ct-minor-seventh">
+
+        <div id='chart-day-of-week'>
+          <span>Days of week</span>
+          <a class='reset' href='javascript:dayOfWeekChart.filterAll();dc.redrawAll();' style='display: none;'>reset</a>
+          <span class='reset' style='display: none;'>
+            Current filter: <span class='filter'></span>
+          </span>
+        </div>
+
+        <div id='chart-line-hitsperday'>
+          <span>Hits per day</span>
+          <a class='reset' href='javascript:hitslineChart.filterAll();dc.redrawAll();' style='display: none;'>reset</a>
+          <span class='reset' style='display: none;'>
+            Current filter: <span class='filter'></span>
+          </span>
+        </div>
+
+        <div id='chart-volume-month'>
+          <span>Hits per day</span>
+          <a class='reset' href='javascript:fluctuationChart.filterAll();dc.redrawAll();' style='display: none;'>reset</a>
+          <span class='reset' style='display: none;'>
+            Current filter: <span class='filter'></span>
+          </span>
+        </div>
+
+        <div id='chart-row'>
+          <span>Hits per day</span>
+          <a class='reset' href='javascript:rowChart.filterAll();dc.redrawAll();' style='display: none;'>reset</a>
+          <span class='reset' style='display: none;'>
+            Current filter: <span class='filter'></span>
+          </span>
+        </div>
+
       </div>
       </div>
     </div>
   </div>
 
   <div class="w-section footer">
-    <div class="w-container footer-container"><a href="#">Support</a><a href="#">Terms &amp; Conditions</a><a href="#">Privacy</a>
+    <div class="w-container footer-container">
+      <div class="footer-links">
+        <a href="#">Support</a><a href="#">Terms &amp; Conditions</a><a href="#">Privacy</a>
+      </div>
     </div>
-    <div class="footer-rights">© 2015&nbsp;Company. All rights reserved.</div>
+    <div class="footer-rights">© 2015&nbsp;oneMonarch. All rights reserved.</div>
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="lib/chartist.min.js"></script>
-  <script type="text/javascript" src="test.js"></script>
+  <script type="text/javascript" src="../js/app.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
 </html>
