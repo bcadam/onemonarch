@@ -31,46 +31,59 @@
       <div class="search-bar">
         <input class="search-input" type="text" placeholder="Enter keywords, #hashtags, or @handles" autofocus/>
         <a class="button" href="/app">Find chatter</a>
+        <a class="example" href="">See Example</a>
       </div>
     </div>
   </div>
   <div class="w-section report">
-    <div class="w-container report-container">
-      <div class="chart-container">
-
-        <div id='chart-day-of-week'>
-          <span>Days of week</span>
-          <a class='reset' href='javascript:dayOfWeekChart.filterAll();dc.redrawAll();' style='display: none;'>reset</a>
-          <span class='reset' style='display: none;'>
-            Current filter: <span class='filter'></span>
+    <div class="header-nav">
+      <input class="search-input" type="text" placeholder="{{text from main site}}" autofocus/>
+      <span class="checkbox">Most negative tweets</span>
+      <span class="checkbox">Most positive tweets</span>
+    </div>
+    <div class="old.w-container">
+      <div class="report-container centered-charts">
+        <div class="chart-container">
+          <h4>Tweets over time</h4>
+          <span id='chart-tweets'>
+            <div class="controls">
+              <a class='reset' href='javascript:chartTweets.filterAll();dc.redrawAll();' style='display: none;'>reset</a>
+              <span class='reset' style='display: none;'>
+                Current filter: <span class='filter'></span>
+              </span>
+              <div class="clearfix"></div>
+            </div>
           </span>
         </div>
 
-        <div id='chart-line-hitsperday'>
-          <span>Hits per day</span>
-          <a class='reset' href='javascript:hitslineChart.filterAll();dc.redrawAll();' style='display: none;'>reset</a>
-          <span class='reset' style='display: none;'>
-            Current filter: <span class='filter'></span>
-          </span>
+        <div class="chart-container centered-charts">
+          <div class='charts-words'>
+            <h4>Popular words, phrases, and topics</h4>
+            <span id='chart-words-adjectives' class='chart-inline'>
+              <div>Adjectives</div>
+              <div>(i.e. feelings and descriptors)</div>
+            </span>
+            <span id='chart-words-nouns' class='chart-inline'>
+              <div>Nouns</div>
+              <div>(i.e. companies and products)</div>
+            </span>
+            <span id='chart-words-verbs' class='chart-inline'>
+              <div>Verbs</div>
+              <div>(i.e. actions and intent)</div>
+            </span>
+          </div>
+
+          <div class='charts-words'>
+            <h4>Influencer Distribution</h4>
+            <span id='chart-influencers' class='chart-inline'>
+              <div>Tweets by follower count</div>
+              <div>&nbsp</div>
+            </span>
+          </div>
+
         </div>
 
-        <div id='chart-volume-month'>
-          <span>Hits per day</span>
-          <a class='reset' href='javascript:fluctuationChart.filterAll();dc.redrawAll();' style='display: none;'>reset</a>
-          <span class='reset' style='display: none;'>
-            Current filter: <span class='filter'></span>
-          </span>
-        </div>
 
-        <div id='chart-row'>
-          <span>Hits per day</span>
-          <a class='reset' href='javascript:rowChart.filterAll();dc.redrawAll();' style='display: none;'>reset</a>
-          <span class='reset' style='display: none;'>
-            Current filter: <span class='filter'></span>
-          </span>
-        </div>
-
-      </div>
       </div>
     </div>
   </div>

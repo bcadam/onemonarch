@@ -151,18 +151,36 @@ a:focus {
 .button:hover {
   background-color: #ff4d3d;
 }
-
+.example {
+  color: white;
+  text-decoration: underline;
+}
+.example:hover {
+  color: rgb(0,0,50);
+}
 
 .report {
   border-top: 10px solid white;
   border-bottom: 10px solid white;
   background-color: white; //rgba(255,118,61,0.1);
   font-size: 15px;
-}
-.report-container {
-  height: 1200px;
+  padding: 50px 100px 100px 100px;
 }
 
+.centered-charts {
+  display: table;
+  margin: 0 auto;
+}
+.chart-container {
+  margin-top: 50px;
+}
+.charts-words .chart-inline:first-of-type {
+  margin-left: 20px;
+}
+
+.charts-words, .chart-inline {
+  display: inline-block;
+}
 
 .footer {
   background-color: #ff763d;
