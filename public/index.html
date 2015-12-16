@@ -37,9 +37,22 @@
   </div>
   <div class="w-section report">
     <div class="header-nav">
-      <input class="search-input" type="text" placeholder="{{text from main site}}" autofocus/>
-      <span class="checkbox">Most negative tweets</span>
-      <span class="checkbox">Most positive tweets</span>
+      <input class="search-input secondary" type="text" placeholder="{{text from main site}}"/>
+      <span class="filter-selection">
+        <span>Filter tweets: </span>
+        <span class="radio-select">
+          <input type="radio" id="radio-negative" name="radio" />
+          <label for="radio-negative">Most negative</label>
+        </span>
+        <span class="radio-select">
+          <input type="radio" id="radio-positive" name="radio" />
+          <label for="radio-positive">Most positive</label>
+        </span>
+        <span class="radio-select">
+          <input type="radio" id="radio-all" name="radio" />
+          <label for="radio-all">All</label>
+        </span>
+      </span>
     </div>
     <div class="old.w-container">
       <div class="report-container centered-charts">
@@ -56,20 +69,17 @@
           </span>
         </div>
 
-        <div class="chart-container centered-charts">
+        <div class="chart-container centered-charts last">
           <div class='charts-words'>
             <h4>Popular words, phrases, and topics</h4>
             <span id='chart-words-adjectives' class='chart-inline'>
-              <div>Adjectives</div>
-              <div>(i.e. feelings and descriptors)</div>
+              <div>Feelings and descriptors</div>
             </span>
             <span id='chart-words-nouns' class='chart-inline'>
-              <div>Nouns</div>
-              <div>(i.e. companies and products)</div>
+              <div>People and products</div>
             </span>
             <span id='chart-words-verbs' class='chart-inline'>
-              <div>Verbs</div>
-              <div>(i.e. actions and intent)</div>
+              <div>Actions and intent</div>
             </span>
           </div>
 
@@ -80,9 +90,12 @@
               <div>&nbsp</div>
             </span>
           </div>
-
         </div>
 
+        <div class='get-complete-report centered-charts'>
+          <div class="description">A full report provides analyses on brand perception, competitors, customer segments, popular content, product attributes, and purchase intent. </div>
+          <a class="button" href="/app">Get report ($20)</a>
+        </div>
 
       </div>
     </div>

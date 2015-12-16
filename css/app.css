@@ -132,6 +132,10 @@ a:focus {
 .search-input:focus {
   background-color: rgb(255,255,255);
 }
+.secondary {
+  background-color: rgba(0,0,0,0.02);
+  border: 1px solid rgba(0,0,0,0.05);
+}
 .button {
   display: inline-block;
   margin-right: auto;
@@ -158,7 +162,31 @@ a:focus {
 .example:hover {
   color: rgb(0,0,50);
 }
-
+.header-nav {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 10px;
+}
+.filter-selection {
+}
+.radio-select input[type="radio"] {
+    display:none;
+}
+.radio-select input[type="radio"] + label {
+  background-color: rgba(240,240,240,1);
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline;
+  font-weight: 300;
+  padding: 5px 15px;
+}
+.radio-select input[type="radio"] + label:hover{
+  background-color: rgba(240,0,0,0.5);
+  color: white;
+}
+.radio-select input[type="radio"]:checked + label{
+  background-color: rgba(240,0,0,1);
+  color: white;
+}
 .report {
   border-top: 10px solid white;
   border-bottom: 10px solid white;
@@ -166,7 +194,6 @@ a:focus {
   font-size: 15px;
   padding: 50px 100px 100px 100px;
 }
-
 .centered-charts {
   display: table;
   margin: 0 auto;
@@ -174,14 +201,25 @@ a:focus {
 .chart-container {
   margin-top: 50px;
 }
+.chart-container.last {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 50px;
+}
 .charts-words .chart-inline:first-of-type {
   margin-left: 20px;
 }
-
 .charts-words, .chart-inline {
   display: inline-block;
 }
-
+.get-complete-report {
+  font-size: 16px;
+  margin-top: 30px;
+  text-align: center;
+}
+.get-complete-report .description {
+  margin-bottom: 30px;
+  width: 560px;
+}
 .footer {
   background-color: #ff763d;
 }
