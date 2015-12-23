@@ -1,0 +1,115 @@
+{
+    "partsOfSpeech": {
+        "conjunction": [],
+        "cardinal": [
+            ["411", 1]
+        ],
+        "foreign": [],
+        "preposition": [
+            ["without", 1],
+            ["out", 1],
+            ["of", 1],
+            ["from", 1],
+            ["for", 1],
+            ["about", 1]
+        ],
+        "adjective": [
+            ["urgent", 1],
+            ["more", 1]
+        ],
+        "modal": [],
+        "noun": [
+            ["@uber", 12],
+            ["uber", 6],
+            ["/", 3],
+            ["alberta", 2],
+            ["@lyft", 2],
+            ["whyidrive", 1],
+            ["@uber_atx", 2],
+            ["@uber_houston", 1],
+            ["@uber_tx", 1],
+            ["@ubereats", 1],
+            ["one", 1],
+            ["@uber_corpus", 1],
+            ["things", 1],
+            ["rt", 1],
+            ["@amieluvey", 1],
+            ["contact", 1],
+            ["anyone", 1],
+            ["phone", 1],
+            ["number", 1],
+            ["email", 1],
+            ["calgarynext", 1],
+            ["@gidi_traffic", 1],
+            ["@uber_support", 1],
+            ["@uber_sf", 1],
+            ["i", 1],
+            ["m", 1],
+            ["help", 1],
+            ["support", 1],
+            ["hour", 1],
+            ["customers", 1],
+            ["calgary", 1],
+            ["surge", 1],
+            ["canada", 1],
+            ["drivers", 1],
+            ["https", 1],
+            ["lyft", 1],
+            ["t", 1],
+            ["co", 1],
+            ["jozoqwypmw", 1],
+            ["@trafficbutter", 1]
+        ],
+        "possessive": [],
+        "personal": [
+            ["we", 2],
+            ["it", 1],
+            ["s", 1],
+            ["your", 1]
+        ],
+        "adverb": [
+            ["not", 2],
+            ["so", 1],
+            ["here", 1]
+        ],
+        "symbol": [
+            ["=", 1]
+        ],
+        "interjection": [],
+        "url": [],
+        "verb": [
+            ["is", 2],
+            ["learn", 1],
+            ["use", 1],
+            ["do", 1],
+            ["have", 1],
+            ["monitoring", 1],
+            ["feel", 1],
+            ["pricing", 1],
+            ["complain", 1],
+            ["please", 1],
+            ["getting", 1],
+            ["stuck", 1],
+            ["serve", 1],
+            ["left", 1]
+        ],
+        "other": [
+            [".", 8],
+            ["#", 8],
+            [":", 3],
+            ["?", 3],
+            ["no", 2],
+            ["'", 2],
+            ["all", 1],
+            ["(", 1],
+            ["why", 1],
+            [",", 1],
+            ["there", 1],
+            ["!", 1],
+            ["any", 1],
+            ["an", 1],
+            ["this", 1],
+            ["how", 1]
+        ]
+    }
+}

@@ -39,18 +39,22 @@
     <div class="header-nav">
       <input class="search-input secondary" type="text" placeholder="{{text from main site}}"/>
       <span class="filter-selection">
-        <span>Filter tweets: </span>
+        <span id='chart-filter-sentiment'></span>
+        <span>Filter tweets: (
+          <span class="filter-count"></span> of 
+          <span class="total-count"></span>)
+        </span>
         <span class="radio-select">
           <input type="radio" id="radio-negative" name="radio" />
-          <label for="radio-negative">Most negative</label>
+          <label for="radio-negative" onClick='javascript:chartFilterSentiment.filterAll();chartFilterSentiment.filter("Negative");dc.redrawAll();'>Most negative</label>
         </span>
         <span class="radio-select">
           <input type="radio" id="radio-positive" name="radio" />
-          <label for="radio-positive">Most positive</label>
+          <label for="radio-positive" onClick='javascript:chartFilterSentiment.filterAll();chartFilterSentiment.filter("Positive");dc.redrawAll();'>Most positive</label>
         </span>
         <span class="radio-select">
-          <input type="radio" id="radio-all" name="radio" />
-          <label for="radio-all">All</label>
+          <input type="radio" checked="checked" id="radio-all" name="radio" />
+          <label for="radio-all" onClick='javascript:chartFilterSentiment.filterAll();dc.redrawAll();'>All</label>
         </span>
       </span>
     </div>
@@ -87,7 +91,6 @@
             <h4>Influencer Distribution</h4>
             <span id='chart-influencers' class='chart-inline'>
               <div>Tweets by follower count</div>
-              <div>&nbsp</div>
             </span>
           </div>
         </div>

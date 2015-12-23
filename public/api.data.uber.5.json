@@ -1,0 +1,881 @@
+{
+    "length": 5,
+    "followers": [
+        ["10,001+", 2],
+        ["1,001-10,000", 1],
+        ["101-1,000", 1],
+        ["151-100", 1],
+        ["11-50", 0],
+        ["6-10", 0],
+        ["0-5", 0]
+    ],
+    "words": [
+        ["@uber", 12],
+        ["uber", 6],
+        ["no", 2],
+        ["not", 2],
+        ["surge", 1],
+        ["pricing", 1],
+        ["use", 1],
+        ["lyft", 2],
+        ["alberta411", 2],
+        ["@lyft", 1],
+        ["whyidrive", 1],
+        ["@uber_atx", 2],
+        ["@uber_houston", 1],
+        ["@uber_tx", 1],
+        ["@ubereats", 1],
+        ["why", 1],
+        ["do", 1],
+        ["without", 1],
+        ["have", 1],
+        ["one", 1],
+        ["monitoring", 1],
+        ["@uber_corpus?", 1],
+        ["feel", 1],
+        ["so", 1],
+        ["left", 1],
+        ["out", 1],
+        ["all", 1],
+        ["things", 1],
+        ["=(", 1],
+        ["@amieluvey:", 1],
+        ["complain", 1],
+        ["contact", 1],
+        ["there", 2],
+        ["phone", 1],
+        ["number,", 1],
+        ["email...", 1],
+        ["urgent", 1],
+        ["please!", 1],
+        ["@trafficbutter", 1],
+        ["@gidi_traffic", 1],
+        ["@uber_support", 1],
+        ["@uber_sf", 1],
+        ["i'm", 1],
+        ["getting", 1],
+        ["any", 1],
+        ["help", 1],
+        ["from", 1],
+        ["support", 1],
+        ["stuck", 1],
+        ["here", 1],
+        ["an", 1],
+        ["hour", 1],
+        ["this", 1],
+        ["serve", 1],
+        ["customers?", 1],
+        ["calgary", 1],
+        ["alberta", 1],
+        ["canada:", 1],
+        ["learn", 1],
+        ["more", 1],
+        ["about", 1],
+        ["your", 1],
+        ["drivers", 1],
+        ["https://t.co/jozoqwypmw", 1],
+        ["calgarynext", 1],
+        ["anyone?", 1]
+    ],
+    "locations": [
+        ["Corpus Christi, Texas", 1],
+        ["Beijing", 1]
+    ],
+    "sentiment": {
+        "happyTweets": [],
+        "noiseTweets": [{
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "created_at": "Fri Dec 04 18:25:57 +0000 2015",
+            "id": 672844302758879200,
+            "id_str": "672844302758879232",
+            "text": "@Uber  there is no uber without SURGE pricing. Use LYFT not Uber @Uber @lyft #whyidrive",
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "truncated": false,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": 19103481,
+            "in_reply_to_user_id_str": "19103481",
+            "in_reply_to_screen_name": "Uber",
+            "user": {
+                "id": 4152679876,
+                "id_str": "4152679876",
+                "name": "UBERMIAMI",
+                "screen_name": "uberzubber",
+                "location": "",
+                "description": "",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 3,
+                "friends_count": 8,
+                "listed_count": 1,
+                "created_at": "Mon Nov 09 23:50:43 +0000 2015",
+                "favourites_count": 8,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 21,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/663867020258222081/rtChfl9n_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/663867020258222081/rtChfl9n_normal.jpg",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "entities": {
+                "hashtags": [{
+                    "text": "whyidrive",
+                    "indices": [77, 87]
+                }],
+                "symbols": [],
+                "user_mentions": [{
+                    "screen_name": "Uber",
+                    "name": "Uber",
+                    "id": 19103481,
+                    "id_str": "19103481",
+                    "indices": [0, 5]
+                }, {
+                    "screen_name": "Uber",
+                    "name": "Uber",
+                    "id": 19103481,
+                    "id_str": "19103481",
+                    "indices": [65, 70]
+                }, {
+                    "screen_name": "lyft",
+                    "name": "Lyft",
+                    "id": 569569550,
+                    "id_str": "569569550",
+                    "indices": [71, 76]
+                }],
+                "urls": []
+            },
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        }, {
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "created_at": "Fri Dec 04 17:27:38 +0000 2015",
+            "id": 672829628097015800,
+            "id_str": "672829628097015812",
+            "text": "@Uber_ATX @Uber_Houston @Uber_TX @Uber @UberEats why do we have no one monitoring @Uber_Corpus? We feel so left out of all things #uber =(",
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "truncated": false,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": 1198247130,
+            "in_reply_to_user_id_str": "1198247130",
+            "in_reply_to_screen_name": "Uber_ATX",
+            "user": {
+                "id": 1439640924,
+                "id_str": "1439640924",
+                "name": "William Thompson",
+                "screen_name": "txbajabillcc",
+                "location": "Corpus Christi, Texas",
+                "description": "Human being, and good natured hedonist!",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 33,
+                "friends_count": 160,
+                "listed_count": 2,
+                "created_at": "Sat May 18 23:07:30 +0000 2013",
+                "favourites_count": 155,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 277,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/662296684584566784/g4Nk44CD_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/662296684584566784/g4Nk44CD_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1439640924/1445448024",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "entities": {
+                "hashtags": [{
+                    "text": "uber",
+                    "indices": [130, 135]
+                }],
+                "symbols": [],
+                "user_mentions": [{
+                    "screen_name": "Uber_ATX",
+                    "name": "Uber Austin",
+                    "id": 1198247130,
+                    "id_str": "1198247130",
+                    "indices": [0, 9]
+                }, {
+                    "screen_name": "Uber_Houston",
+                    "name": "Uber Houston",
+                    "id": 1577925188,
+                    "id_str": "1577925188",
+                    "indices": [10, 23]
+                }, {
+                    "screen_name": "Uber_TX",
+                    "name": "Uber Texas",
+                    "id": 2857454552,
+                    "id_str": "2857454552",
+                    "indices": [24, 32]
+                }, {
+                    "screen_name": "Uber",
+                    "name": "Uber",
+                    "id": 19103481,
+                    "id_str": "19103481",
+                    "indices": [33, 38]
+                }, {
+                    "screen_name": "UberEats",
+                    "name": "UberEATS",
+                    "id": 3100005042,
+                    "id_str": "3100005042",
+                    "indices": [39, 48]
+                }, {
+                    "screen_name": "Uber_Corpus",
+                    "name": "Uber Corpus Christi",
+                    "id": 2471294689,
+                    "id_str": "2471294689",
+                    "indices": [82, 94]
+                }],
+                "urls": []
+            },
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        }, {
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "created_at": "Thu Dec 03 09:20:46 +0000 2015",
+            "id": 672344717695262700,
+            "id_str": "672344717695262720",
+            "text": "RT @Amieluvey: Uber complain contact anyone? Phone number, email... It's urgent please! @Uber @uber @trafficbutter @Gidi_Traffic",
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "truncated": false,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 3641677101,
+                "id_str": "3641677101",
+                "name": "Pablo Escabar",
+                "screen_name": "escabar10",
+                "location": "",
+                "description": "",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 225,
+                "friends_count": 462,
+                "listed_count": 11,
+                "created_at": "Sun Sep 13 11:46:19 +0000 2015",
+                "favourites_count": 528,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 3043,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/643031183723511808/Ba5nmz4K_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/643031183723511808/Ba5nmz4K_normal.jpg",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "created_at": "Thu Dec 03 07:25:30 +0000 2015",
+                "id": 672315709226147800,
+                "id_str": "672315709226147840",
+                "text": "Uber complain contact anyone? Phone number, email... It's urgent please! @Uber @uber @trafficbutter @Gidi_Traffic",
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "truncated": false,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 252809621,
+                    "id_str": "252809621",
+                    "name": "Amaka Amalu",
+                    "screen_name": "Amieluvey",
+                    "location": "London, England",
+                    "description": "God-freak...",
+                    "url": null,
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 347,
+                    "friends_count": 400,
+                    "listed_count": 2,
+                    "created_at": "Tue Feb 15 23:35:27 +0000 2011",
+                    "favourites_count": 104,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": true,
+                    "verified": false,
+                    "statuses_count": 3587,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "C0DEED",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/667887190404423680/gBCNv9uk_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/667887190404423680/gBCNv9uk_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/252809621/1439579951",
+                    "profile_link_color": "0084B4",
+                    "profile_sidebar_border_color": "C0DEED",
+                    "profile_sidebar_fill_color": "DDEEF6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": true,
+                    "default_profile": true,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 2,
+                "favorite_count": 0,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [{
+                        "screen_name": "Uber",
+                        "name": "Uber",
+                        "id": 19103481,
+                        "id_str": "19103481",
+                        "indices": [73, 78]
+                    }, {
+                        "screen_name": "Uber",
+                        "name": "Uber",
+                        "id": 19103481,
+                        "id_str": "19103481",
+                        "indices": [79, 84]
+                    }, {
+                        "screen_name": "trafficbutter",
+                        "name": "TRAFFICBUTTER APP",
+                        "id": 216331785,
+                        "id_str": "216331785",
+                        "indices": [85, 99]
+                    }, {
+                        "screen_name": "Gidi_Traffic",
+                        "name": "GIDITRAFFIC",
+                        "id": 378809160,
+                        "id_str": "378809160",
+                        "indices": [100, 113]
+                    }],
+                    "urls": []
+                },
+                "favorited": false,
+                "retweeted": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 2,
+            "favorite_count": 0,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [{
+                    "screen_name": "Amieluvey",
+                    "name": "Amaka Amalu",
+                    "id": 252809621,
+                    "id_str": "252809621",
+                    "indices": [3, 13]
+                }, {
+                    "screen_name": "Uber",
+                    "name": "Uber",
+                    "id": 19103481,
+                    "id_str": "19103481",
+                    "indices": [88, 93]
+                }, {
+                    "screen_name": "Uber",
+                    "name": "Uber",
+                    "id": 19103481,
+                    "id_str": "19103481",
+                    "indices": [94, 99]
+                }, {
+                    "screen_name": "trafficbutter",
+                    "name": "TRAFFICBUTTER APP",
+                    "id": 216331785,
+                    "id_str": "216331785",
+                    "indices": [100, 114]
+                }, {
+                    "screen_name": "Gidi_Traffic",
+                    "name": "GIDITRAFFIC",
+                    "id": 378809160,
+                    "id_str": "378809160",
+                    "indices": [115, 128]
+                }],
+                "urls": []
+            },
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        }, {
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "created_at": "Thu Nov 26 06:36:21 +0000 2015",
+            "id": 669766625885749200,
+            "id_str": "669766625885749248",
+            "text": "@uber @uber_support @Uber_SF I'm not getting any help from support. Stuck here for an hour. Is this how #Uber serve customers?",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "truncated": false,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": 19103481,
+            "in_reply_to_user_id_str": "19103481",
+            "in_reply_to_screen_name": "Uber",
+            "user": {
+                "id": 9795772,
+                "id_str": "9795772",
+                "name": "Leo Du",
+                "screen_name": "DarthAnarchy",
+                "location": "Beijing",
+                "description": "Search Engine Developer, Libertarian，Unitarian Universalist",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 1530,
+                "friends_count": 256,
+                "listed_count": 55,
+                "created_at": "Tue Oct 30 13:06:53 +0000 2007",
+                "favourites_count": 70,
+                "utc_offset": -32400,
+                "time_zone": "Alaska",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 7255,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "352726",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/893718884/profile_small_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/893718884/profile_small_normal.jpg",
+                "profile_link_color": "D02B55",
+                "profile_sidebar_border_color": "829D5E",
+                "profile_sidebar_fill_color": "99CC33",
+                "profile_text_color": "3E4415",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "entities": {
+                "hashtags": [{
+                    "text": "Uber",
+                    "indices": [104, 109]
+                }],
+                "symbols": [],
+                "user_mentions": [{
+                    "screen_name": "Uber",
+                    "name": "Uber",
+                    "id": 19103481,
+                    "id_str": "19103481",
+                    "indices": [0, 5]
+                }, {
+                    "screen_name": "Uber_Support",
+                    "name": "Uber Support",
+                    "id": 2815754953,
+                    "id_str": "2815754953",
+                    "indices": [6, 19]
+                }, {
+                    "screen_name": "Uber_SF",
+                    "name": "Uber San Francisco",
+                    "id": 272161437,
+                    "id_str": "272161437",
+                    "indices": [20, 28]
+                }],
+                "urls": []
+            },
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        }],
+        "sadTweets": [{
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "created_at": "Thu Dec 03 19:22:45 +0000 2015",
+            "id": 672496211832774700,
+            "id_str": "672496211832774656",
+            "text": "#Calgary #Alberta #Canada: Learn more about your Uber drivers. https://t.co/JozOqwyPMw #calgarynext #alberta411",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "truncated": false,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 3289912422,
+                "id_str": "3289912422",
+                "name": "Uber Promo Code",
+                "screen_name": "UberPromoOffers",
+                "location": "",
+                "description": "Official Uber Promo Codes for Current Uber Riders and New Uber Accounts.",
+                "url": "http://t.co/kMdRIQ458m",
+                "entities": {
+                    "url": {
+                        "urls": [{
+                            "url": "http://t.co/kMdRIQ458m",
+                            "expanded_url": "http://uber-codes.com",
+                            "display_url": "uber-codes.com",
+                            "indices": [0, 22]
+                        }]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 214,
+                "friends_count": 162,
+                "listed_count": 36,
+                "created_at": "Fri Jul 24 14:16:42 +0000 2015",
+                "favourites_count": 0,
+                "utc_offset": -18000,
+                "time_zone": "Eastern Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 485,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "1A1B1F",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/643198676773552128/pFy6mieT_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/643198676773552128/pFy6mieT_normal.jpg",
+                "profile_link_color": "000000",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "entities": {
+                "hashtags": [{
+                    "text": "Calgary",
+                    "indices": [0, 8]
+                }, {
+                    "text": "Alberta",
+                    "indices": [9, 17]
+                }, {
+                    "text": "Canada",
+                    "indices": [18, 25]
+                }, {
+                    "text": "calgarynext",
+                    "indices": [87, 99]
+                }, {
+                    "text": "alberta411",
+                    "indices": [100, 111]
+                }],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [{
+                    "url": "https://t.co/JozOqwyPMw",
+                    "expanded_url": "https://newsroom.uber.com/calgary/2015/12/whyidrive-behind-the-wheel-with-uber-calgary-drivers/",
+                    "display_url": "newsroom.uber.com/calgary/2015/1…",
+                    "indices": [63, 86]
+                }]
+            },
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        }]
+    },
+    "happyPartsOfSpeech": {
+        "conjunction": [],
+        "cardinal": [],
+        "foreign": [],
+        "preposition": [],
+        "adjective": [],
+        "modal": [],
+        "noun": [],
+        "possessive": [],
+        "personal": [],
+        "adverb": [],
+        "symbol": [],
+        "interjection": [],
+        "url": [],
+        "verb": [],
+        "other": []
+    },
+    "noisePartsOfSpeech": {
+        "conjunction": [],
+        "cardinal": [],
+        "foreign": [],
+        "preposition": [
+            ["without", 1],
+            ["out", 1],
+            ["of", 1],
+            ["from", 1],
+            ["for", 1]
+        ],
+        "adjective": [
+            ["urgent", 1]
+        ],
+        "modal": [],
+        "noun": [
+            ["@uber", 11],
+            ["uber", 5],
+            ["surge", 1],
+            ["lyft", 2],
+            ["@lyft", 1],
+            ["whyidrive", 1],
+            ["@uber_atx", 2],
+            ["@uber_houston", 1],
+            ["@uber_tx", 1],
+            ["@ubereats", 1],
+            ["one", 1],
+            ["@uber_corpus", 1],
+            ["things", 1],
+            ["rt", 1],
+            ["@amieluvey", 1],
+            ["customers", 1],
+            ["anyone", 1],
+            ["phone", 1],
+            ["number", 1],
+            ["email", 1],
+            ["@trafficbutter", 1],
+            ["@gidi_traffic", 1],
+            ["@uber_support", 1],
+            ["@uber_sf", 1],
+            ["i", 1],
+            ["m", 1],
+            ["help", 1],
+            ["support", 1],
+            ["hour", 1],
+            ["contact", 1]
+        ],
+        "possessive": [],
+        "personal": [
+            ["we", 2],
+            ["it", 1],
+            ["s", 1]
+        ],
+        "adverb": [
+            ["not", 2],
+            ["so", 1],
+            ["here", 1]
+        ],
+        "symbol": [
+            ["=", 1]
+        ],
+        "interjection": [],
+        "url": [],
+        "verb": [
+            ["is", 2],
+            ["serve", 1],
+            ["use", 1],
+            ["do", 1],
+            ["have", 1],
+            ["monitoring", 1],
+            ["pricing", 1],
+            ["left", 1],
+            ["complain", 1],
+            ["please", 1],
+            ["getting", 1],
+            ["stuck", 1],
+            ["feel", 1]
+        ],
+        "other": [
+            [".", 6],
+            ["#", 3],
+            ["?", 3],
+            ["no", 2],
+            ["'", 2],
+            [":", 1],
+            ["all", 1],
+            ["(", 1],
+            ["why", 1],
+            [",", 1],
+            ["there", 1],
+            ["!", 1],
+            ["any", 1],
+            ["an", 1],
+            ["this", 1],
+            ["how", 1]
+        ]
+    },
+    "sadPartsOfSpeech": {
+        "conjunction": [],
+        "cardinal": [
+            ["411", 1]
+        ],
+        "foreign": [],
+        "preposition": [
+            ["about", 1]
+        ],
+        "adjective": [
+            ["more", 1]
+        ],
+        "modal": [],
+        "noun": [
+            ["/", 3],
+            ["alberta", 2],
+            ["https", 1],
+            ["uber", 1],
+            ["drivers", 1],
+            ["calgary", 1],
+            ["canada", 1],
+            ["t", 1],
+            ["co", 1],
+            ["jozoqwypmw", 1],
+            ["calgarynext", 1]
+        ],
+        "possessive": [],
+        "personal": [
+            ["your", 1]
+        ],
+        "adverb": [],
+        "symbol": [],
+        "interjection": [],
+        "url": [],
+        "verb": [
+            ["learn", 1]
+        ],
+        "other": [
+            ["#", 5],
+            [":", 2],
+            [".", 2]
+        ]
+    }
+}

@@ -167,6 +167,12 @@ a:focus {
   padding-bottom: 10px;
 }
 .filter-selection {
+  float: right;
+  margin-right: 10px;
+  margin-top: 42px;
+}
+#chart-filter-sentiment {
+  display:none;
 }
 .radio-select input[type="radio"] {
     display:none;
@@ -179,12 +185,28 @@ a:focus {
   font-weight: 300;
   padding: 5px 15px;
 }
-.radio-select input[type="radio"] + label:hover{
+.radio-select input#radio-negative + label:hover{
   background-color: rgba(240,0,0,0.5);
   color: white;
 }
-.radio-select input[type="radio"]:checked + label{
+.radio-select input#radio-negative:checked + label{
   background-color: rgba(240,0,0,1);
+  color: white;
+}
+.radio-select input#radio-positive + label:hover{
+  background-color: rgba(0,240,0,0.5);
+  color: white;
+}
+.radio-select input#radio-positive:checked + label{
+  background-color: rgba(0,240,0,1);
+  color: white;
+}
+.radio-select input#radio-all + label:hover{
+  background-color: rgba(0,0,240,0.5);
+  color: white;
+}
+.radio-select input#radio-all:checked + label{
+  background-color: rgba(0,0,240,1);
   color: white;
 }
 .report {
@@ -193,6 +215,9 @@ a:focus {
   background-color: white; //rgba(255,118,61,0.1);
   font-size: 15px;
   padding: 50px 100px 100px 100px;
+}
+.dc-chart g.row text {
+  fill: #484848 !important;
 }
 .centered-charts {
   display: table;
